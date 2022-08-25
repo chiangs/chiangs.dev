@@ -11,9 +11,9 @@ This is a monorepo example using Turborepo and my go-to technologies.
 
 ## What's in this monorepo?
 
-`/apps/web` - Remix with Typescript targeted to Vercel deployment, imports components from ui-vite package.
+`/apps/web` - Remix with Typescript targeted to Vercel deployment, imports components from ui package.
 
-`/apps/storybook` - Storybook with Vite Builder, stories only, imports components from ui-vite package.
+`/apps/storybook` - Storybook with Vite Builder, stories only, imports components from ui package.
 
 `/packages/eslint-config-custom` - Custom ES Lint configs for other packages and apps to use.
 
@@ -21,6 +21,6 @@ This is a monorepo example using Turborepo and my go-to technologies.
 
 `/packages/ui` - Normal React component package.
 
-`/packages/ui-vite` - React component package with Vite and Vitest.
+`/packages/ui` - React component package with Vite and Vitest.
 
 ## Commands

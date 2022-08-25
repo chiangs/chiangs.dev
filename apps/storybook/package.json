@@ -24,6 +24,6 @@
         "tsconfig": "*"
     },
     "dependencies": {
-        "ui-vite": "*"
+        "ui": "*"
     }
 }

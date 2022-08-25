@@ -1,5 +1,5 @@
 import type { ComponentMeta } from '@storybook/react';
-import { Button } from 'ui-vite';
+import { Button } from 'ui';
 
 export default {
     title: 'Atoms/Button',

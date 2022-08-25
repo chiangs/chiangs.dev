@@ -1,5 +1,6 @@
 {
     "name": "ui",
+    "description": "UI component packages",
     "version": "0.0.0",
     "license": "MIT",
     "main": "./dist/index.js",
@@ -8,20 +9,42 @@
     "files": [
         "dist/**"
     ],
+    "exports": {
+        ".": {
+            "import": "./dist/ui.es.js",
+            "require": "./dist/ui.umd.js"
+        }
+    },
     "scripts": {
-        "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
-        "dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
-        "lint": "eslint"
+        "build": "vite build",
+        "build:watch": "vite build --watch",
+        "lint": "eslint",
+        "test": "vitest run",
+        "watch": "vitest",
+        "coverage": "vitest run --coverage",
+        "testui": "vitest --ui"
     },
     "devDependencies": {
+        "@testing-library/dom": "^8.17.1",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^14.4.3",
         "@types/react": "^18.0.15",
         "@types/react-dom": "^18.0.6",
+        "@types/react-test-renderer": "^18.0.0",
+        "@vitejs/plugin-react": "^2.0.1",
+        "@vitest/coverage-c8": "^0.22.1",
+        "@vitest/ui": "^0.22.1",
+        "c8": "^7.12.0",
         "eslint": "^8.20.0",
         "eslint-config-custom": "*",
+        "jsdom": "^20.0.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
+        "react-test-renderer": "^18.2.0",
         "tsconfig": "*",
-        "tsup": "^6.2.2",
-        "typescript": "^4.7.4"
+        "typescript": "^4.7.4",
+        "vite": "^3.0.9",
+        "vite-plugin-dts": "^1.4.1",
+        "vitest": "^0.22.1"
     }
 }

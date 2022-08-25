@@ -1,7 +1,7 @@
 {
-    "name": "monorepo-remix",
+    "name": "chiangs.dev",
     "version": "1.0.0",
-    "description": "monorepo",
+    "description": "personal portfolio monorepo",
     "author": "chiangs",
     "license": "MIT",
     "private": true,

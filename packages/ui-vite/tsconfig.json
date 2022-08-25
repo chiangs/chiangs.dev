@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-        "lib": ["dom", "ES2020"]
-    },
-    "extends": "tsconfig/ui-libary.json",
-    "include": [".", ".eslintrc.js"],
-    "exclude": ["dist", "build", "node_modules"]
-}
