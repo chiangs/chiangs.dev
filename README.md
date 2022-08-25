@@ -15,6 +15,8 @@ This is a monorepo example using Turborepo and my go-to technologies.
 
 `/apps/storybook` - Storybook with Vite Builder, stories only, imports components from ui package.
 
+`/apps/studio` - Sanity Studio.
+
 `/packages/eslint-config-custom` - Custom ES Lint configs for other packages and apps to use.
 
 `/packages/tsconfig` - Custom TS Config rules for other packages and apps to use.
