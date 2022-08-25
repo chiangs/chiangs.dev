@@ -16,7 +16,8 @@
         "format": "prettier --write \"**/*.{ts,tsx,md}\"",
         "test": "turbo run test",
         "coverage": "turbo run coverage",
-        "storybook": "turbo run storybook"
+        "storybook": "turbo run storybook",
+        "studio": "turbo run studio"
     },
     "devDependencies": {
         "eslint-config-custom": "*",

@@ -21,6 +21,9 @@
         },
         "storybook": {
             "cache": false
+        },
+        "studio": {
+            "cache": false
         }
     }
 }
