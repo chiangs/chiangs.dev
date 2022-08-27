@@ -2,6 +2,10 @@
 import '../../web/app/styles/__normalize.css';
 import '../../web/app/styles/global.css';
 
+// Themes
+import '../../web/app/styles/themes/sunset.css';
+import '../../web/app/styles/themes/sunrise.css';
+
 // Stories
 import '../../web/app/styles/atoms/buttons.css';
 
