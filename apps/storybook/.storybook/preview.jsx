@@ -1,3 +1,10 @@
+// Global
+import '../../web/app/styles/__normalize.css';
+import '../../web/app/styles/global.css';
+
+// Stories
+import '../../web/app/styles/atoms/buttons.css';
+
 const LIGHT = 'sunrise';
 const DARK = 'sunset';
 const DEFAULT_THEME = DARK;

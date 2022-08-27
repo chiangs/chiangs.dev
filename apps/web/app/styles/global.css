@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/WorkSans-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/fonts/WorkSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Azeret Mono';
+    src: url('/fonts/AzeretMono-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+:root {
+    /* #region Colors */
+    /* Whites */
+    --white: hsl(0, 0%, 100%);
+    --off-white: hsl(195, 15%, 95%);
+    /* Grays */
+    --gunmetal: hsl(200, 20%, 18%);
+    --space-gray: hsl(200, 18%, 26%);
+    --urban: hsl(200, 20%, 40%);
+    --battleship: hsl(203, 18%, 45%);
+    --vapor: hsl(201, 16%, 57%);
+    --slate: hsl(199, 16%, 48%);
+    --regent: hsl(203, 16%, 60%);
+    --tower: hsl(180, 15%, 72%);
+    --ghost: hsl(180, 13%, 85%);
+    /* Greens */
+    --forest: hsl(161, 100%, 19%);
+    --eucalyptus: hsl(155, 69%, 35%);
+    --jungle: hsl(156, 68%, 39%);
+    --genoa: hsl(158, 73%, 39%);
+    --shamrock: hsl(158, 63%, 49%);
+    --emerald: hsl(158, 75%, 53%);
+    /* Reds */
+    --pomegranate: hsl(6, 88%, 48%);
+    --punch: hsl(7, 86%, 59%);
+    --carnation: hsl(4, 91%, 66%);
+    --flamingo: hsl(7, 74%, 79%);
+    --rosebud: hsl(4, 86%, 74%);
+    --orchid: hsl(4, 89%, 67%);
+    /* Purples */
+    --purple-raz: hsl(304, 100%, 41%);
+    --purple-urple: hsl(306, 100%, 63%);
+    --midnight-haze: hsl(240, 52%, 11%);
+    --midnight-luck: hsl(240, 52%, 25%);
+    /* Blues */
+    --azure: hsl(212, 100%, 45%);
+    --dodger: hsl(211, 100%, 62%);
+    /* #endregion colors */
+    /* #region Fonts */
+    --font-title: 'Inter', sans-serif;
+    --font-body: 'Work Sans', sans-serif;
+    --font-quote: 'Azeret Mono', sans-serif;
+    --font-light: 300;
+    --font-regular: 400;
+    --font-semibold: 600;
+    --font-bold: 900;
+    --leading: calc(16px * 1.6);
+    /* #endregion Fonts */
+    /* #region Spacings */
+    /* Base */
+    --space-xxl: 5.25rem;
+    --space-xl: 3.25rem;
+    --space-l: 1.625rem;
+    --space-m: 1.125rem;
+    --space-s: 0.625rem;
+    --space-xs: 0.5rem;
+    --space-xxs: 0.25rem;
+    /* Container */
+    --space-container-4: var(--space-xxl);
+    --space-container-3: var(--space-xl);
+    --space-container-2: var(--space-l);
+    --space-container-1: var(--space-m);
+    /* Content */
+    --space-content-4: var(--space-xl);
+    --space-content-3: var(--space-l);
+    --space-content-2: var(--space-m);
+    --space-content-1: var(--space-xs);
+    /* Component */
+    --space-component-4: var(--space-m);
+    --space-component-3: var(--space-s);
+    --space-component-2: var(--space-xs);
+    --space-component-1: var(--space-xxs);
+    /* #endregion Spacings */
+    /* Layering */
+    --modal: 1000;
+    --top: 500;
+    --middle: 300;
+    --bottom: 0;
+    /* Borders */
+    --border-button: 2px;
+    /* Radii */
+    --radius-button: 4px;
+    --radius-card: 2px;
+    --radius-circle: 50%;
+    /* Transitions */
+    --transition-logo: left 0.3s ease-in-out;
+    --transition-link: color 0.2s ease-in-out, box-shadow 0.1s ease-in-out;
+    /* Misc */
+    --blur-background: 33px;
+    --link-maxlength: 400px;
+    --height-logo: 43px;
+    --size-avatar: 80px;
+    --height-header-mobile: 71px;
+    --height-header-desktop: 150px;
+    --height-footer-desktop: 410px;
+}
