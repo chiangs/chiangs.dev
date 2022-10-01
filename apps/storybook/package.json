@@ -20,10 +20,11 @@
         "@storybook/react": "^6.5.10",
         "@storybook/testing-library": "^0.0.13",
         "babel-loader": "^8.2.5",
-        "vite": "^3.0.9",
-        "tsconfig": "*"
+        "tsconfig": "*",
+        "vite": "^3.0.9"
     },
     "dependencies": {
+        "storybook": "^6.5.12",
         "ui": "*"
     }
 }
